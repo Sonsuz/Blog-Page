@@ -120,3 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+LOGIN_REDIRECT_URL = '/' #so that after login it will redirect to top-level-index which is homepage
